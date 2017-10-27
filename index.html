@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- main css -->
+    <style>
+        .container {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <!-- Zepto -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.js"></script>
+    <!-- main js -->
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- backgrounds -->
+        <img src="assets/bg.jpg" id="bg">
+        <img src="assets/bg1.png" id="bg1">
+        <img src="assets/bg5.png" id="bg5">
+        <img src="assets/dish.png" id="dish">
+        <!-- Steam -->
+        <div class="steamContainer"></div>
+        <img src="assets/steam1.png" id="steam1">
+        <img src="assets/steam1.png" id="steam7">
+        <!-- Frame 1 -->
+        <img src="assets/txt11.png" id="txt11">
+        <img src="assets/txt12.png" id="txt12">
+        <!-- Frame 2 -->
+        <img src="assets/txt21.png" id="txt21">
+        <img src="assets/txt22.png" id="txt22">
+        <img src="assets/new.png" id="new">
+        <img src="assets/bg.jpg" id="bg2">
+        <!-- Frame 3 -->
+        <img src="assets/txt31.png" id="txt31">
+        <img src="assets/txt32.png" id="txt32">
+        <img src="assets/txt33.png" id="txt33">
+        <img src="assets/light.png" id="light">
+        <img src="assets/pasta2.png" id="pasta2">
+        <img src="assets/pasta1.png" id="pasta1">
+        <img src="assets/logo.png" id="logo">
+
+        <!-- border -->
+        <div class="border1"></div>
+        <div class="border2"></div>
+        <div class="border3"></div>
+        <div class="border4"></div>
+        <!-- ClickTag -->
+        <div class="clickScreen"></div>
+        <!-- CTA -->
+        <div id="cta">
+            <img class="ctatext" src="assets/ctatext.png">
+        </div>
+    </div>
+</body>
+    <script type="text/javascript">
+        window.onload = function() {
+            preload();
+        };
+    </script>
+</html>

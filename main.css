@@ -1,0 +1,98 @@
+/* 
+======= DEFAULT CSS =======
+*/ 
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.container {
+    position: relative;
+    overflow: hidden;  
+}
+.container,
+.clickScreen {
+    width: 300px;
+    height: 250px;
+}
+.container div,
+.container img {
+    position: absolute;
+} 
+
+/* 
+======= CUSRTOM CSS =======
+*/
+.clickScreen{
+    cursor: pointer;
+} 
+.border {
+    border: 1px solid #626363;
+}
+.border1{
+    width: 300px;
+    height: 1px;
+    border: 1px solid #626363;
+    left: 0;
+    top: -2px;
+}
+.border2{
+    width: 300px;
+    height: 1px;
+    border: 1px solid #626363;
+    left: 0;
+    top: 249px;
+}
+.border3{
+    width: 1px;
+    height: 250px;
+    border: 1px solid #626363;
+    left: -2px;
+    top: 0;
+}
+.border4{
+    width: 1px;
+    height: 250px;
+    border: 1px solid #626363;
+    left: 299px;
+    top: 0;
+}
+#txt21, #txt22, #txt31, #txt32, #txt33, #steam1, #steam2, #steam3, #steam4, #pasta1, #pasta2, #new, #bg2, #bg5{
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    backface-visibilitiy:hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+   -webkit-transform-style: preserve-3d;
+}
+.ctatext{
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    backface-visibilitiy:hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+   -webkit-transform-style: preserve-3d;
+}
+#cta{
+    cursor: pointer;
+    width: 109px;
+    height: 30px;
+    left: 35px;
+    top: 129px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #009246;
+    box-shadow: 2px 2px 5px #030000;
+    border: 1px solid #009246;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    
+}
+.steamContainer{
+    left: -30px;
+    top: 0;
+    width: 300px;
+    height: 135px;
+    overflow: hidden;
+}
